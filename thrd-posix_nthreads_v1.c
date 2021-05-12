@@ -40,7 +40,7 @@ void *runner(void *param){
 		for (i = 1; i <= upper; i++)
 			sum += i;
 	}
-	delay(10);
+	delay(1);
         printf("sum = %d\n",sum);
 	pthread_exit(0);
 }
