@@ -52,6 +52,7 @@ struct monitor_DataType {
   sem_t OKtoWrite;
   int readerCount;
   int isBusyWriting;
+  
   // The read-queue
   int readRequested;
 };
